@@ -8,6 +8,7 @@ use Laravel\Nova\Authorizable;
 
 trait SupportSingleRecordNavigationLinks
 {
+    
     use Authorizable;
     
     public static function singleRecord(): bool
